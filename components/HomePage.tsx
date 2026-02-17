@@ -16,7 +16,7 @@ export default function HomePage() {
           </ScrollAnimation>
           <ScrollAnimation immediate delay={0.1}>
             <p className="mt-4 text-lg text-gtc-ink/80">
-              Fostering a community built on a shared love of puzzles and strategy.
+              We solve real card games with game theory, probability, and a lot of spirited debate.
             </p>
           </ScrollAnimation>
           <ScrollAnimation immediate delay={0.2}>
@@ -46,10 +46,11 @@ export default function HomePage() {
           </ScrollAnimation>
           <ScrollAnimation direction="up" delay={0.1}>
             <p className="mt-4 text-base leading-relaxed text-gtc-ink/80">
-              The Princeton Game Theory Club is a community of students passionate about strategic thinking,
-              decision-making, and rational behavior. We explore the fascinating world of game theory through
-              discussions, puzzles, and collaborative problem-solving. Whether you&apos;re a seasoned strategist
-              or just curious about how people make decisions, you&apos;ll find a welcoming environment to learn and grow.
+              We&apos;re a community of students who love strategic thinking, decision-making, and rational play. Our goal is
+              to solve fun and niche card games using probability, statistics, and game theory. The game we&apos;re currently
+              focused on is Fish (also known as Literature), and we explore it through discussion, puzzles, and
+              collaborative problem-solving. Whether you&apos;re a seasoned strategist or brand new, you&apos;ll find a welcoming
+              place to learn and build.
             </p>
           </ScrollAnimation>
         </div>
@@ -80,9 +81,9 @@ export default function HomePage() {
           </ScrollAnimation>
           <ScrollAnimation direction="up" delay={0.1}>
             <p className="mt-4 text-base leading-relaxed text-gtc-ink/80">
-              Join us every week for engaging discussions, strategic puzzles, and collaborative learning. Our meetings
-              are open to all Princeton students, regardless of experience level. We cover topics ranging from classic
-              game theory concepts to modern applications in economics, politics, and everyday decision-making.
+              We meet weekly for open play, live-team Fish games, and strategy sessions that introduce the rules,
+              probability tools, and equilibrium ideas behind the game. Meetings are open to all experience levels,
+              and we split time between learning concepts and actually playing the game together.
             </p>
           </ScrollAnimation>
         </div>
@@ -94,15 +95,15 @@ export default function HomePage() {
         </ScrollAnimation>
         <ScrollAnimation direction="up" delay={0.1}>
           <p className="mt-4 text-base leading-relaxed text-gtc-ink/80 max-w-3xl">
-            Puzzles are our favorite way to practice strategic thinking. We host friendly competitions, work through
-            classic paradoxes, and build intuition for equilibrium concepts with hands-on challenges.
+            We learn game theory by playing it. Expect friendly competitions, puzzle nights, and hands-on challenges
+            that build intuition for optimal play and strategic reasoning.
           </p>
         </ScrollAnimation>
         <StaggerContainer className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            "Iterated prisoner's dilemma challenges",
-            'Auction design and voting puzzles',
-            'Logic games, riddles, and matchups',
+            'Live Fish games with open discussion',
+            'Strategy and probability mini-lessons',
+            'Tournament prep and matchup practice',
           ].map((item) => (
             <StaggerItem key={item}>
               <div className="rounded-xl border border-gtc-beige bg-white/60 p-6 text-sm text-gtc-ink/80 shadow-sm">
@@ -120,8 +121,9 @@ export default function HomePage() {
           </ScrollAnimation>
           <ScrollAnimation direction="up" delay={0.1}>
             <p className="mt-4 text-base leading-relaxed text-gtc-ink/80">
-              Help us bring more speakers, puzzles, and opportunities to campus. You can support the club by
-              sharing resources, sponsoring events, or connecting us with faculty and alumni working in game theory.
+              Help us host bigger tournaments, bring speakers, and grow our strategy and development work. We appreciate
+              event sponsorships, prize support, and connections with faculty, alumni, and departments interested in
+              game theory.
             </p>
           </ScrollAnimation>
           <ScrollAnimation direction="up" delay={0.2}>
@@ -159,17 +161,32 @@ export default function HomePage() {
           </ScrollAnimation>
           <ScrollAnimation direction="up" delay={0.1}>
             <p className="mt-4 text-base leading-relaxed text-gtc-ink/80">
-              Join us for weekly meetings, strategic puzzles, and collaborative learning. Our doors are open to all
-              Princeton students who are curious about game theory, from first-years to graduate students.
+              We&apos;re open to all Princeton students—whether you want to play, learn strategy, or help build tools.
+              Join the Strategy Team (rulebook + theory) or the Development Team (simulator + engine), or just drop by
+              for a game night.
             </p>
           </ScrollAnimation>
           <ScrollAnimation direction="up" delay={0.2}>
-            <a
-              href="mailto:gametheory@princeton.edu?subject=Join%20the%20Club"
-              className="mt-6 inline-flex items-center gap-2 rounded-full border border-princeton-orange px-6 py-2 text-sm uppercase tracking-[0.3em] text-princeton-orange transition-colors hover:bg-princeton-orange hover:text-white"
-            >
-              Join the mailing list
-            </a>
+            <div className="mt-6 flex flex-wrap items-center gap-4">
+              <a
+                href="https://groupme.com/join_group/109934993/NQGWcUoD"
+                className="inline-flex items-center gap-2 rounded-full border border-princeton-orange px-6 py-2 text-sm uppercase tracking-[0.3em] text-princeton-orange transition-colors hover:bg-princeton-orange hover:text-white"
+              >
+                Join the GroupMe
+              </a>
+              <a
+                href="https://www.instagram.com/gtc_princeton"
+                className="text-sm uppercase tracking-[0.3em] text-gtc-brown/70 transition-colors hover:text-princeton-orange"
+              >
+                Follow on Instagram
+              </a>
+              <a
+                href="mailto:gametheory@princeton.edu?subject=Join%20the%20Club"
+                className="text-sm uppercase tracking-[0.3em] text-gtc-brown/70 transition-colors hover:text-princeton-orange"
+              >
+                Email us
+              </a>
+            </div>
           </ScrollAnimation>
         </div>
       </section>
