@@ -22,7 +22,7 @@ export default function HomePage() {
           <ScrollAnimation immediate delay={0.2}>
             <div className="mt-8 overflow-hidden rounded-2xl border border-gtc-beige shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1600&q=80"
+                src="/IMG_0171.JPG"
                 alt="Students gathered for a club meeting"
                 className="h-64 w-full object-cover md:h-80"
               />
@@ -56,7 +56,7 @@ export default function HomePage() {
         <ScrollAnimation direction="fade" delay={0.15}>
           <div className="overflow-hidden rounded-2xl border border-gtc-beige shadow-sm">
             <img
-              src="https://images.unsplash.com/photo-1518544889280-9f69b6fefabc?auto=format&fit=crop&w=1200&q=80"
+              src="/IMG_0242.JPG"
               alt="A student holding a hand of cards"
               className="h-72 w-full object-cover"
             />
@@ -68,7 +68,7 @@ export default function HomePage() {
         <ScrollAnimation direction="fade">
           <div className="overflow-hidden rounded-2xl border border-gtc-beige shadow-sm md:order-none order-2">
             <img
-              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80"
+              src="/IMG_0182.JPG"
               alt="Students collaborating in a classroom"
               className="h-72 w-full object-cover"
             />
@@ -133,8 +133,8 @@ export default function HomePage() {
         <ScrollAnimation direction="fade" delay={0.15}>
           <div className="overflow-hidden rounded-2xl border border-gtc-beige shadow-sm">
             <img
-              src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=80"
-              alt="Students presenting at a club event"
+              src="/IMG_0345.JPG"
+              alt="Club members chatting after a game night"
               className="h-72 w-full object-cover"
             />
           </div>
@@ -146,7 +146,7 @@ export default function HomePage() {
           <ScrollAnimation direction="fade">
             <div className="overflow-hidden rounded-2xl border border-gtc-beige shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=80"
+                src="/IMG_0354.JPG"
                 alt="Club members celebrating together"
                 className="h-72 w-full object-cover"
               />
